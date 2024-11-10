@@ -26,27 +26,30 @@ A Python script that automatically cleans up your desktop by organizing files in
 1. Clone the repository:
    ```bash
    git clone https://github.com/lucasdhar/Desktop-Cleaner.git
-Navigate to the Desktop-Cleaner directory:
+   ```
+    Navigate to the Desktop-Cleaner directory:
+2. Copy code
+    ```bash
+    cd Desktop-Cleaner
+    ```
+    Run the script:
 
-bash
-Copy code
-cd Desktop-Cleaner
-Run the script:
-
-bash
-Copy code
-python desktop_cleaner.py
+3. Copy code
+     ```bash
+      python desktop_cleaner.py
+      ```
 The script will start cleaning your desktop by organizing the files into respective folders.
 
-###How It Works
+#### How It Works
 The script scans your desktop for all files.
 It categorizes the files based on file extensions (e.g., .txt for Documents, .jpg for Images).
 It moves the files into corresponding folders such as Documents, Images, Videos, Music, etc.
 If the folder does not exist, the script will create it automatically.
 
-###Customizing the Script
+#### Customizing the Script
 You can customize the file types and their corresponding categories in the script by editing the file_types dictionary.
 You can also specify the folders where the files should be moved by modifying the destination_folders.
 
-###License
+#### License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
