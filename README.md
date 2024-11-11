@@ -36,7 +36,7 @@ A Python script that automatically cleans up your desktop by organizing files in
 
 3. Copy code
      ```bash
-      python desktop_cleaner.py
+      python3 desktop_cleaner.py
       ```
 The script will start cleaning your desktop by organizing the files into respective folders.
 
